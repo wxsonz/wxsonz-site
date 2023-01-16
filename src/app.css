@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#typeIndicator {
+    top: 692px;
+    right: 826px;
+    width: 34px;
+    height: 64px;
+    mix-blend-mode: difference;
+    background: #ffffff;
+}
+
+@font-face {
+    font-family: "JBM";
+    src: url(".//fonts/JetBrainsMono-VariableFont_wght.ttf");
+  }
+
+body {
+    font-family: "JBM";
+    background-color: slategray;
+}
